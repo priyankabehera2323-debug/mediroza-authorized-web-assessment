@@ -1,0 +1,29 @@
+# Sensitive source material — never commit these
+*.pdf
+*.sql
+*.log
+*.pcap
+*.har
+*.db
+*.sqlite
+*.env
+*.key
+*.pem
+*.p12
+*.bak
+
+# Local evidence and generated files
+downloads/
+working/
+raw-evidence/
+private-evidence/
+
+# Screenshots may contain confidential information; commit only reviewed redacted copies
+screenshots/raw/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

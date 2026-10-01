@@ -1,4 +1,4 @@
- Limitations
+# Limitations
 
 - This was a time-boxed (5-day), black-box training engagement — not an exhaustive security audit.
 - Social engineering, denial-of-service, and testing of systems outside the approved domain were explicitly out of scope.

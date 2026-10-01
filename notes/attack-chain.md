@@ -1,4 +1,4 @@
-# Attack Chain (Sanitized)
+# Attack Chain 
 
 1. Public reconnaissance disclosed `/patient/`, `/staff/`, and `/old/`.
 2. Directory listings exposed application structure and the backup filename.

@@ -1,8 +1,7 @@
-# Sanitized Evidence Index
+# Evidence Index
 
 Store descriptions and hashes of evidence here, not the sensitive source files.
 
-Example safe entries:
 
 - `robots.txt` — disclosed approved application paths
 - Redacted login evidence — demonstrates authentication weakness

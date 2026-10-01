@@ -1,6 +1,6 @@
 # Mediroza General Hospital — Authorized Web Security Assessment
 
-> **Confidential training project. Private repository recommended.**
+> **Confidential training project.**
 
 This repository contains sanitized documentation for an authorized black-box web application security assessment conducted as part of the Networkwalks training project.
 
@@ -39,20 +39,8 @@ Only sanitized notes, redacted screenshots, report templates, and video-planning
 
 ## Contents
 
-- `report/` — sanitized report draft and evidence index
-- `video/` — video storyboard and narration plan
-- `evidence/` — sanitized evidence descriptions only
+- [`report/report.md`](report/report.md) — full sanitized penetration test report
+- [`evidence/evidence-index.md`](evidence/evidence-index.md) — sanitized evidence descriptions and hashes
 - `screenshots/` — reviewed and redacted screenshots only
-- `notes/` — scope, timeline, and attack-chain notes without secrets
+- `notes/` — [scope](notes/scope.md), [timeline](notes/timeline.md), [attack chain](notes/attack-chain.md), and [limitations](notes/limitations.md)
 
-## Handling instructions
-
-Keep the repository private unless the instructor explicitly approves publication. Before every commit, inspect the staged files:
-
-```bash
-git diff --cached --stat
-git diff --cached --name-only
-git grep -nEi 'password|secret|token|national_id|patient|salary|phone|email' -- ':!README.md'
-```
-
-If any sensitive data appears, remove it before committing.

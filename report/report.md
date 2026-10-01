@@ -1,11 +1,17 @@
 # Mediroza General Hospital — Web Application Security Assessment
 
 **Prepared by:** Priyanka
+
 **Organisation:** Networkwalks
+
 **Batch:** B083 | Week 4
+
 **Assessment date:** 30 September 2026
+
 **Target:** `https://medirozahospital.com`
+
 **Classification:** Confidential — Authorised Personnel Only
+
 
 ---
 

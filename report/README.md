@@ -1,4 +1,4 @@
-# Report Materials
+# Report 
 
 The complete, sanitized assessment report is in [`report.md`](./report.md).
 

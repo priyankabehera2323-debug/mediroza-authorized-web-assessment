@@ -1,11 +1,7 @@
-# Limitations
+ Limitations
 
-- Testing was limited to the authorized training target.
-- No denial-of-service or high-volume testing was performed.
-- No social engineering was performed.
-- Only the three assigned PDF reports were retrieved.
-- Only the assigned database backup was retrieved.
-- The exposed database records were not reproduced in the report.
-- Patient names, medical information, national IDs, phone numbers, emails, and passwords were redacted.
-- No files or database records were modified, deleted, or uploaded.
-- Findings are based on the behavior observed during the approved testing window.
+- This was a time-boxed (5-day), black-box training engagement — not an exhaustive security audit.
+- Social engineering, denial-of-service, and testing of systems outside the approved domain were explicitly out of scope.
+- Only the 3 patient PDF files required by the M1 milestone were retrieved; no broader enumeration of patient records was performed.
+- Database analysis was limited to confirming the exposure (schema and row counts); individual patient, staff, and shareholder records were not extracted or reproduced beyond what was necessary to prove impact.
+- All sensitive material (passwords, raw PDFs, the SQL backup, PII) was handled locally and is intentionally excluded from this repository.
